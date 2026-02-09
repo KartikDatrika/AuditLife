@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "AuditLife (Debug)",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceFolder}/audit_life_app/lib/main.dart",
+            "cwd": "${workspaceFolder}/audit_life_app"
+        },
+        {
+            "name": "AuditLife (Release)",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceFolder}/audit_life_app/lib/main.dart",
+            "cwd": "${workspaceFolder}/audit_life_app",
+            "flutterMode": "release"
+        }
+    ]
+}
